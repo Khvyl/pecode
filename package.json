@@ -1,0 +1,15 @@
+{
+  "name": "newtest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cd autotest && PLAYWRIGHT_JSON_OUTPUT_NAME=results.json npx playwright test --reporter=json,dot"
+  
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.15.0"
+  }
+}
